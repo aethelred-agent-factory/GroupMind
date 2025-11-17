@@ -55,10 +55,10 @@ docker-compose down
 
 ## Need Details?
 
-- Full setup guide: `BOT_SETUP_GUIDE.md`
-- Troubleshooting: `BOT_SETUP_GUIDE.md` → Troubleshooting section
+- Full setup guide: `docs/BOT_SETUP_GUIDE.md`
+- Deployment: `docs/DEPLOY_NOW.md`
 - Architecture: `README.md`
-- Testing: `TESTS.md`
+- Testing: `docs/TESTS.md`
 
 ## What The Bot Does
 
@@ -77,4 +77,4 @@ Monitor it, test it, enjoy it. 🎉
 
 ---
 
-**Questions?** Check `BOT_SETUP_GUIDE.md` for complete details.
+**Questions?** Check `docs/BOT_SETUP_GUIDE.md` for complete details.
