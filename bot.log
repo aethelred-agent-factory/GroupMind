@@ -1,0 +1,590 @@
+2025-11-17 02:58:23,273 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:23,314 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:23,370 - __main__ - ERROR - Failed to initialize bot: name 'CommandContext' is not defined
+2025-11-17 02:58:23,370 - __main__ - ERROR - Failed to start bot: name 'CommandContext' is not defined
+2025-11-17 02:58:23,371 - __main__ - ERROR - Fatal error: name 'CommandContext' is not defined
+2025-11-17 02:58:25,299 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:25,349 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:25,436 - __main__ - ERROR - Failed to initialize bot: name 'CommandContext' is not defined
+2025-11-17 02:58:25,436 - __main__ - ERROR - Failed to start bot: name 'CommandContext' is not defined
+2025-11-17 02:58:25,436 - __main__ - ERROR - Fatal error: name 'CommandContext' is not defined
+2025-11-17 02:58:27,344 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:27,385 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:27,443 - __main__ - ERROR - Failed to initialize bot: name 'CommandContext' is not defined
+2025-11-17 02:58:27,443 - __main__ - ERROR - Failed to start bot: name 'CommandContext' is not defined
+2025-11-17 02:58:27,443 - __main__ - ERROR - Fatal error: name 'CommandContext' is not defined
+2025-11-17 02:58:29,531 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:29,567 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:29,632 - __main__ - ERROR - Failed to initialize bot: name 'CommandContext' is not defined
+2025-11-17 02:58:29,632 - __main__ - ERROR - Failed to start bot: name 'CommandContext' is not defined
+2025-11-17 02:58:29,632 - __main__ - ERROR - Fatal error: name 'CommandContext' is not defined
+2025-11-17 02:58:32,104 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:32,154 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:32,255 - __main__ - ERROR - Failed to initialize bot: name 'CommandContext' is not defined
+2025-11-17 02:58:32,255 - __main__ - ERROR - Failed to start bot: name 'CommandContext' is not defined
+2025-11-17 02:58:32,255 - __main__ - ERROR - Fatal error: name 'CommandContext' is not defined
+2025-11-17 02:58:35,696 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:35,732 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:35,783 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:35,783 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:35,783 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:40,879 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:40,931 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:40,996 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:40,996 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:40,996 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:49,177 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:49,227 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:49,289 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:49,289 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:49,289 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:51,002 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:51,040 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:51,088 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:51,089 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:51,089 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:52,807 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:52,888 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:52,990 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:52,991 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:52,991 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:54,848 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:54,884 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:54,936 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:54,936 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:54,936 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:56,970 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:57,009 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:57,063 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:57,064 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:57,064 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:59,447 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:58:59,492 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:58:59,543 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:59,543 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:58:59,544 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:04,004 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:04,068 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:04,151 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:04,151 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:04,151 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:09,162 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:09,198 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:09,249 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:09,249 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:09,249 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:17,301 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:17,349 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:17,398 - __main__ - ERROR - Failed to initialize bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:17,399 - __main__ - ERROR - Failed to start bot: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:17,399 - __main__ - ERROR - Fatal error: module 'telegram.ext.filters' has no attribute 'GROUP'
+2025-11-17 02:59:31,743 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:31,785 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:31,836 - __main__ - INFO - Handlers registered successfully
+2025-11-17 02:59:31,836 - __main__ - INFO - Bot initialized successfully
+2025-11-17 02:59:31,836 - __main__ - INFO - Starting bot application
+2025-11-17 02:59:31,837 - __main__ - ERROR - Failed to start bot: Cannot close a running event loop
+2025-11-17 02:59:31,837 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 02:59:39,871 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:39,907 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:39,965 - __main__ - INFO - Handlers registered successfully
+2025-11-17 02:59:39,966 - __main__ - INFO - Bot initialized successfully
+2025-11-17 02:59:39,966 - __main__ - INFO - Starting bot application
+2025-11-17 02:59:39,966 - __main__ - ERROR - Failed to start bot: Cannot close a running event loop
+2025-11-17 02:59:39,966 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 02:59:41,732 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:41,796 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:41,896 - __main__ - INFO - Handlers registered successfully
+2025-11-17 02:59:41,896 - __main__ - INFO - Bot initialized successfully
+2025-11-17 02:59:41,896 - __main__ - INFO - Starting bot application
+2025-11-17 02:59:41,897 - __main__ - ERROR - Failed to start bot: Cannot close a running event loop
+2025-11-17 02:59:41,897 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 02:59:43,630 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:43,667 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:43,719 - __main__ - INFO - Handlers registered successfully
+2025-11-17 02:59:43,719 - __main__ - INFO - Bot initialized successfully
+2025-11-17 02:59:43,719 - __main__ - INFO - Starting bot application
+2025-11-17 02:59:43,720 - __main__ - ERROR - Failed to start bot: Cannot close a running event loop
+2025-11-17 02:59:43,720 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 02:59:45,816 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:45,852 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:45,904 - __main__ - INFO - Handlers registered successfully
+2025-11-17 02:59:45,904 - __main__ - INFO - Bot initialized successfully
+2025-11-17 02:59:45,904 - __main__ - INFO - Starting bot application
+2025-11-17 02:59:45,904 - __main__ - ERROR - Failed to start bot: Cannot close a running event loop
+2025-11-17 02:59:45,905 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 02:59:48,364 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:48,405 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:48,461 - __main__ - INFO - Handlers registered successfully
+2025-11-17 02:59:48,461 - __main__ - INFO - Bot initialized successfully
+2025-11-17 02:59:48,461 - __main__ - INFO - Starting bot application
+2025-11-17 02:59:48,462 - __main__ - ERROR - Failed to start bot: Cannot close a running event loop
+2025-11-17 02:59:48,462 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 02:59:51,680 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 02:59:51,734 - __main__ - INFO - Database initialized successfully
+2025-11-17 02:59:51,818 - __main__ - INFO - Handlers registered successfully
+2025-11-17 02:59:51,821 - __main__ - INFO - Bot initialized successfully
+2025-11-17 02:59:51,822 - __main__ - INFO - Starting bot application
+2025-11-17 02:59:51,822 - __main__ - ERROR - Failed to start bot: This Application was not initialized via `Application.initialize`!
+2025-11-17 02:59:51,822 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:00:25,612 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:25,706 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:25,709 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:25,709 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:25,709 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:00:33,894 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:33,948 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:33,948 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:33,948 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:33,949 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:00:35,961 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:36,017 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:36,018 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:36,018 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:36,018 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:00:37,743 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:37,792 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:37,792 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:37,793 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:37,793 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:00:39,762 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:39,813 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:39,814 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:39,814 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:39,814 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:00:41,996 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:42,045 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:42,045 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:42,045 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:42,045 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:00:44,481 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:44,532 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:44,532 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:44,532 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:44,533 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:00:47,747 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:47,797 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:47,797 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:47,798 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:47,798 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:00:52,666 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:00:52,722 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:00:52,723 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:00:52,723 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:00:52,723 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:01:00,873 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:00,931 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:00,932 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:00,932 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:00,932 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:01:02,779 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:02,826 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:02,826 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:02,827 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:02,827 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:01:04,501 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:04,550 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:04,550 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:04,550 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:04,550 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:01:06,684 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:06,788 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:06,788 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:06,788 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:06,789 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:01:09,736 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:09,791 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:09,791 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:09,791 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:09,791 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:01:12,317 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:12,418 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:12,418 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:12,418 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:12,418 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:01:15,639 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:15,688 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:15,688 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:15,689 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:15,689 - __main__ - ERROR - Fatal error: This Application was not initialized via `Application.initialize`!
+2025-11-17 03:01:20,503 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:20,553 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:20,553 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:20,553 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:22,469 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getMe "HTTP/1.1 200 OK"
+2025-11-17 03:01:22,470 - telegram.ext.Application - INFO - Application started
+2025-11-17 03:01:22,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-17 03:01:30,832 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:30,893 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:30,894 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:30,894 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:31,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getMe "HTTP/1.1 200 OK"
+2025-11-17 03:01:31,227 - telegram.ext.Application - INFO - Application started
+2025-11-17 03:01:31,315 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-17 03:01:45,775 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:01:45,827 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:01:45,827 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:01:45,827 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:01:45,828 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:02:09,400 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:02:09,455 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:02:09,455 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:02:09,456 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:02:09,456 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:02:12,377 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:02:12,468 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:02:12,468 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:02:12,468 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:02:12,469 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:02:14,452 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:02:14,503 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:02:14,503 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:02:14,503 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:02:14,504 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:02:16,634 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:02:16,697 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:02:16,697 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:02:16,697 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:02:16,698 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:02:19,426 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:02:19,475 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:02:19,475 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:02:19,475 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:02:19,476 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:02:22,700 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:02:22,797 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:02:22,797 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:02:22,797 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:02:22,798 - __main__ - ERROR - Fatal error: Cannot close a running event loop
+2025-11-17 03:02:27,910 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:02:27,960 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:02:27,960 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:02:27,961 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:02:28,290 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getMe "HTTP/1.1 200 OK"
+2025-11-17 03:02:28,377 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-17 03:02:28,379 - telegram.ext.Application - INFO - Application started
+2025-11-17 03:02:38,703 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:02:48,798 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:02:58,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:03:08,980 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:03:19,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:03:29,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:03:39,257 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:03:48,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:03:48,410 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-11-17 03:03:48,417 - telegram.ext.Application - INFO - Application.stop() complete
+2025-11-17 03:03:54,252 - __main__ - INFO - Database initialized successfully
+2025-11-17 03:03:54,393 - __main__ - INFO - Handlers registered successfully
+2025-11-17 03:03:54,393 - __main__ - INFO - Bot initialized successfully
+2025-11-17 03:03:54,393 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 03:03:54,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getMe "HTTP/1.1 200 OK"
+2025-11-17 03:03:54,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-17 03:03:54,819 - telegram.ext.Application - INFO - Application started
+2025-11-17 03:04:05,173 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:04:10,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:04:10,842 - __main__ - INFO - User 7952819982 started the bot
+2025-11-17 03:04:11,245 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/sendMessage "HTTP/1.1 200 OK"
+2025-11-17 03:04:11,246 - __main__ - INFO - Start message sent to user 7952819982
+2025-11-17 03:04:20,930 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:04:25,068 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:04:25,069 - __main__ - INFO - User 7952819982 requested help
+2025-11-17 03:04:25,522 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/sendMessage "HTTP/1.1 200 OK"
+2025-11-17 03:04:25,523 - __main__ - INFO - Help message sent to user 7952819982
+2025-11-17 03:04:35,158 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:04:45,246 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:04:55,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:05:02,828 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:05:12,919 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:05:23,006 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:05:33,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:05:43,182 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:05:45,760 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:05:45,761 - __main__ - INFO - User 7952819982 requested summary in chat 7952819982
+2025-11-17 03:05:46,152 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/sendChatAction "HTTP/1.1 200 OK"
+2025-11-17 03:05:46,153 - __main__ - INFO - Summary request queued for chat 7952819982
+2025-11-17 03:05:46,370 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/sendMessage "HTTP/1.1 200 OK"
+2025-11-17 03:05:55,852 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:06:05,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:06:16,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:06:26,118 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:06:36,205 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:06:46,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:06:56,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:07:06,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:07:16,573 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:07:26,661 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:07:36,750 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:07:46,837 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:07:56,926 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:08:07,015 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:08:17,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:08:27,192 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:08:37,282 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:08:47,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:08:57,465 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:09:07,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:09:17,641 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:09:27,732 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:09:37,825 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:09:47,919 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:09:58,008 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:10:08,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:10:18,190 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:10:28,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:10:38,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:10:48,456 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:10:58,545 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:11:08,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:11:18,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:11:28,816 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:11:38,906 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:11:48,995 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:11:59,083 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:12:09,171 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:12:19,258 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:12:29,348 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:12:39,436 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:12:49,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:12:59,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:13:09,700 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:13:19,789 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:13:29,878 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:13:39,966 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:13:50,054 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:14:00,142 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:14:10,233 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:14:20,322 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:14:30,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:14:40,498 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:14:50,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:15:00,676 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:15:10,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:15:20,865 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:15:30,957 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:15:41,045 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:15:51,133 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:16:01,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:16:11,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:16:21,403 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:16:31,498 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:16:41,586 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:16:51,678 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:17:01,766 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:17:11,856 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:17:21,943 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:17:32,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:17:42,120 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:17:52,208 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:18:02,298 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:18:12,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:18:22,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:18:32,561 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:18:42,658 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:18:52,746 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:19:02,834 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:19:12,921 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:19:23,010 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:19:33,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:19:43,187 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:19:53,275 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:20:03,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:20:13,459 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:20:23,546 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:20:33,898 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:20:43,987 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:20:54,076 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:21:04,164 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:21:14,252 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:21:24,339 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:21:34,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:21:44,516 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:21:54,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:22:04,690 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:22:14,779 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:22:24,867 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:22:34,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:22:45,042 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:22:55,131 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:23:05,220 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:23:15,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:23:25,395 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:23:35,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:23:45,571 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:23:55,660 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:24:05,747 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:24:15,836 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:24:25,924 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:24:36,015 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:24:46,103 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:24:56,191 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:25:06,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:25:16,366 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:25:26,454 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:25:36,542 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:25:46,631 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:25:56,718 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:26:06,805 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:26:16,893 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:26:26,981 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:26:37,069 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:26:47,156 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:26:57,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:27:07,334 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:27:17,422 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:27:27,509 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:27:37,597 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:27:47,684 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:27:57,773 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:28:07,863 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:28:17,952 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:28:28,040 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:28:38,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:28:48,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:28:58,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:29:08,395 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:29:18,483 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:29:28,570 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:29:38,659 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:29:48,746 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:29:58,833 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:30:08,920 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:30:19,008 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:30:29,094 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:30:39,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:30:49,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:30:59,362 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:31:09,449 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:31:19,538 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:31:29,626 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:31:39,713 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:31:49,800 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:31:59,889 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:32:09,976 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:32:20,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:32:30,152 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:32:40,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:32:50,327 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:33:00,414 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:33:10,501 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:33:20,588 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:33:30,677 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:33:40,765 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:33:50,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:34:00,942 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:34:11,030 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:34:21,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:34:31,205 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:34:41,292 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:34:51,379 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:35:01,467 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:35:11,555 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:35:21,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:35:31,730 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:35:41,817 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:35:51,908 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:36:01,995 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:36:12,082 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:36:22,170 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:36:32,257 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:36:42,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:36:52,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:37:02,528 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:37:12,615 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:37:22,946 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:37:33,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:37:43,122 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:37:53,210 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:38:03,298 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:38:13,393 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:38:23,481 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:38:33,572 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:38:43,661 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:38:53,749 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:39:03,844 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:39:13,933 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:39:24,022 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:39:34,110 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:39:44,197 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 03:39:54,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:04:27,295 - __main__ - INFO - Database initialized successfully
+2025-11-17 05:04:27,721 - __main__ - INFO - Handlers registered successfully
+2025-11-17 05:04:27,722 - __main__ - INFO - Bot initialized successfully
+2025-11-17 05:04:27,722 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 05:04:28,266 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getMe "HTTP/1.1 200 OK"
+2025-11-17 05:04:28,358 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-17 05:04:28,361 - telegram.ext.Application - INFO - Application started
+2025-11-17 05:04:38,647 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:04:48,743 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:04:58,837 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:05:08,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:05:19,021 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:05:29,108 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:05:39,196 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:05:49,284 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:05:59,372 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:06:09,463 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:06:19,556 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:06:29,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:06:39,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:06:49,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:06:59,909 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:07:10,008 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:07:20,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:07:24,552 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:07:24,554 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-11-17 05:07:24,554 - telegram.ext.Application - INFO - Application.stop() complete
+2025-11-17 05:07:26,862 - __main__ - INFO - Database initialized successfully
+2025-11-17 05:07:26,938 - __main__ - INFO - Handlers registered successfully
+2025-11-17 05:07:26,939 - __main__ - INFO - Bot initialized successfully
+2025-11-17 05:07:26,939 - __main__ - INFO - GroupMind Bot starting up
+2025-11-17 05:07:27,303 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getMe "HTTP/1.1 200 OK"
+2025-11-17 05:07:27,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/deleteWebhook "HTTP/1.1 200 OK"
+2025-11-17 05:07:27,392 - telegram.ext.Application - INFO - Application started
+2025-11-17 05:07:37,720 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:07:47,813 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:07:57,901 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:08:07,990 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:08:18,079 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:08:28,166 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:08:38,253 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:08:48,340 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:08:55,610 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:08:55,611 - __main__ - INFO - User 7952819982 requested help
+2025-11-17 05:08:56,064 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/sendMessage "HTTP/1.1 200 OK"
+2025-11-17 05:08:56,065 - __main__ - INFO - Help message sent to user 7952819982
+2025-11-17 05:09:05,701 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:09:15,789 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:09:20,822 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:09:20,823 - __main__ - INFO - User 7952819982 requested help
+2025-11-17 05:09:21,299 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/sendMessage "HTTP/1.1 200 OK"
+2025-11-17 05:09:21,299 - __main__ - INFO - Help message sent to user 7952819982
+2025-11-17 05:09:25,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:09:25,014 - __main__ - INFO - User 7952819982 requested summary in chat 7952819982
+2025-11-17 05:09:25,223 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/sendChatAction "HTTP/1.1 200 OK"
+2025-11-17 05:09:25,224 - __main__ - ERROR - Database error while processing summary: No module named 'bot'
+2025-11-17 05:09:25,441 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/sendMessage "HTTP/1.1 200 OK"
+2025-11-17 05:09:35,102 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:09:45,190 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:09:55,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:10:05,367 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:10:15,456 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:10:25,544 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:10:35,632 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:10:45,721 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:10:55,810 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:11:05,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:11:15,991 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:11:26,079 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:11:36,167 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:11:46,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:11:56,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:12:06,432 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:12:16,521 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:12:26,609 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:12:36,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:12:46,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:12:56,875 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:13:06,968 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:13:17,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:13:27,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"
+2025-11-17 05:13:37,240 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7981793798:AAGyeC1OZwhtvSY-BNWCAQ2S1h8IImaTh1U/getUpdates "HTTP/1.1 200 OK"

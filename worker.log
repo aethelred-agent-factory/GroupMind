@@ -1,0 +1,276 @@
+2025-11-17 02:54:56,852 - __main__ - INFO - Initializing worker...
+2025-11-17 02:54:56,857 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:54:56,857 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:54:56,858 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:55:00,186 - __main__ - INFO - Initializing worker...
+2025-11-17 02:55:00,190 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:55:00,190 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:55:00,191 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:55:02,855 - __main__ - INFO - Initializing worker...
+2025-11-17 02:55:02,858 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:55:02,859 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:55:02,859 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:55:05,730 - __main__ - INFO - Initializing worker...
+2025-11-17 02:55:05,734 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:55:05,734 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:55:05,734 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:55:08,286 - __main__ - INFO - Initializing worker...
+2025-11-17 02:55:08,289 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:55:08,289 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:55:08,289 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:55:11,782 - __main__ - INFO - Initializing worker...
+2025-11-17 02:55:11,784 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:55:11,785 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:55:11,785 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:55:16,664 - __main__ - INFO - Initializing worker...
+2025-11-17 02:55:16,667 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:55:16,667 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:55:16,667 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:55:24,851 - __main__ - INFO - Initializing worker...
+2025-11-17 02:55:24,854 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:55:24,854 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:55:24,854 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:55:39,400 - __main__ - INFO - Initializing worker...
+2025-11-17 02:55:39,403 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:55:39,403 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:55:39,403 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:56:06,667 - __main__ - INFO - Initializing worker...
+2025-11-17 02:56:06,669 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:56:06,670 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:56:06,670 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:56:59,601 - __main__ - INFO - Initializing worker...
+2025-11-17 02:56:59,604 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:56:59,604 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:56:59,605 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:58:01,304 - __main__ - INFO - Initializing worker...
+2025-11-17 02:58:01,307 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:58:01,307 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:58:01,307 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 02:59:04,264 - __main__ - INFO - Initializing worker...
+2025-11-17 02:59:04,275 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 02:59:04,277 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 02:59:04,277 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:00:06,634 - __main__ - INFO - Initializing worker...
+2025-11-17 03:00:06,638 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:00:06,638 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:00:06,638 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:01:09,374 - __main__ - INFO - Initializing worker...
+2025-11-17 03:01:09,377 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:01:09,378 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:01:09,378 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:02:12,243 - __main__ - INFO - Initializing worker...
+2025-11-17 03:02:12,246 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:02:12,247 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:02:12,247 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:03:16,116 - __main__ - INFO - Initializing worker...
+2025-11-17 03:03:16,124 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:03:16,124 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:03:16,124 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:04:18,618 - __main__ - INFO - Initializing worker...
+2025-11-17 03:04:18,621 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:04:18,621 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:04:18,622 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:05:20,297 - __main__ - INFO - Initializing worker...
+2025-11-17 03:05:20,299 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:05:20,300 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:05:20,300 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:06:22,119 - __main__ - INFO - Initializing worker...
+2025-11-17 03:06:22,122 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:06:22,122 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:06:22,122 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:07:23,876 - __main__ - INFO - Initializing worker...
+2025-11-17 03:07:23,879 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:07:23,880 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:07:23,880 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:08:25,716 - __main__ - INFO - Initializing worker...
+2025-11-17 03:08:25,720 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:08:25,720 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:08:25,721 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:09:27,592 - __main__ - INFO - Initializing worker...
+2025-11-17 03:09:27,595 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:09:27,595 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:09:27,596 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:10:29,342 - __main__ - INFO - Initializing worker...
+2025-11-17 03:10:29,345 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:10:29,345 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:10:29,345 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:11:31,122 - __main__ - INFO - Initializing worker...
+2025-11-17 03:11:31,125 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:11:31,125 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:11:31,125 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:12:32,794 - __main__ - INFO - Initializing worker...
+2025-11-17 03:12:32,797 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:12:32,798 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:12:32,798 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:13:34,594 - __main__ - INFO - Initializing worker...
+2025-11-17 03:13:34,596 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:13:34,597 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:13:34,597 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:14:36,322 - __main__ - INFO - Initializing worker...
+2025-11-17 03:14:36,325 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:14:36,325 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:14:36,325 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:15:38,047 - __main__ - INFO - Initializing worker...
+2025-11-17 03:15:38,050 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:15:38,050 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:15:38,050 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:16:39,770 - __main__ - INFO - Initializing worker...
+2025-11-17 03:16:39,773 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:16:39,774 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:16:39,774 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:17:41,385 - __main__ - INFO - Initializing worker...
+2025-11-17 03:17:41,388 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:17:41,388 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:17:41,388 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:18:43,067 - __main__ - INFO - Initializing worker...
+2025-11-17 03:18:43,070 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:18:43,070 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:18:43,070 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:19:44,750 - __main__ - INFO - Initializing worker...
+2025-11-17 03:19:44,753 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:19:44,753 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:19:44,753 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:20:46,494 - __main__ - INFO - Initializing worker...
+2025-11-17 03:20:46,497 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:20:46,497 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:20:46,498 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:21:48,312 - __main__ - INFO - Initializing worker...
+2025-11-17 03:21:48,315 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:21:48,315 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:21:48,315 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:22:50,278 - __main__ - INFO - Initializing worker...
+2025-11-17 03:22:50,282 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:22:50,282 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:22:50,282 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:23:52,338 - __main__ - INFO - Initializing worker...
+2025-11-17 03:23:52,341 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:23:52,341 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:23:52,342 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:24:54,047 - __main__ - INFO - Initializing worker...
+2025-11-17 03:24:54,050 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:24:54,050 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:24:54,051 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:25:55,714 - __main__ - INFO - Initializing worker...
+2025-11-17 03:25:55,717 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:25:55,717 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:25:55,717 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:26:57,454 - __main__ - INFO - Initializing worker...
+2025-11-17 03:26:57,457 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:26:57,457 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:26:57,458 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:27:59,329 - __main__ - INFO - Initializing worker...
+2025-11-17 03:27:59,332 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:27:59,333 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:27:59,333 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:29:01,199 - __main__ - INFO - Initializing worker...
+2025-11-17 03:29:01,204 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:29:01,204 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:29:01,205 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:30:02,970 - __main__ - INFO - Initializing worker...
+2025-11-17 03:30:02,972 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:30:02,973 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:30:02,973 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:31:04,737 - __main__ - INFO - Initializing worker...
+2025-11-17 03:31:04,740 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:31:04,740 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:31:04,741 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:32:06,420 - __main__ - INFO - Initializing worker...
+2025-11-17 03:32:06,423 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:32:06,423 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:32:06,423 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:33:08,194 - __main__ - INFO - Initializing worker...
+2025-11-17 03:33:08,197 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:33:08,198 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:33:08,198 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:34:09,991 - __main__ - INFO - Initializing worker...
+2025-11-17 03:34:09,993 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:34:09,994 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:34:09,994 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:35:11,617 - __main__ - INFO - Initializing worker...
+2025-11-17 03:35:11,620 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:35:11,620 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:35:11,620 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:36:13,511 - __main__ - INFO - Initializing worker...
+2025-11-17 03:36:13,514 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:36:13,515 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:36:13,515 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:37:15,409 - __main__ - INFO - Initializing worker...
+2025-11-17 03:37:15,412 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:37:15,412 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:37:15,413 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:38:17,288 - __main__ - INFO - Initializing worker...
+2025-11-17 03:38:17,291 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:38:17,291 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:38:17,292 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 03:39:19,031 - __main__ - INFO - Initializing worker...
+2025-11-17 03:39:19,035 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 03:39:19,035 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 03:39:19,036 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:04:28,577 - __main__ - INFO - Initializing worker...
+2025-11-17 05:04:28,613 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:04:28,613 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:04:28,613 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:04:35,468 - __main__ - INFO - Initializing worker...
+2025-11-17 05:04:35,496 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:04:35,496 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:04:35,496 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:04:39,968 - __main__ - INFO - Initializing worker...
+2025-11-17 05:04:39,972 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:04:39,974 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:04:39,974 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:04:44,420 - __main__ - INFO - Initializing worker...
+2025-11-17 05:04:44,427 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:04:44,428 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:04:44,428 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:04:49,350 - __main__ - INFO - Initializing worker...
+2025-11-17 05:04:49,354 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:04:49,354 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:04:49,355 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:04:57,187 - __main__ - INFO - Initializing worker...
+2025-11-17 05:04:57,191 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:04:57,192 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:04:57,192 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:05:05,236 - __main__ - INFO - Initializing worker...
+2025-11-17 05:05:05,241 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:05:05,242 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:05:05,242 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:05:15,757 - __main__ - INFO - Initializing worker...
+2025-11-17 05:05:15,761 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:05:15,761 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:05:15,761 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:05:30,611 - __main__ - INFO - Initializing worker...
+2025-11-17 05:05:30,613 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:05:30,614 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:05:30,614 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:05:58,432 - __main__ - INFO - Initializing worker...
+2025-11-17 05:05:58,435 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:05:58,435 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:05:58,435 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:06:51,567 - __main__ - INFO - Initializing worker...
+2025-11-17 05:06:51,570 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:06:51,570 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:06:51,570 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:07:53,525 - __main__ - INFO - Initializing worker...
+2025-11-17 05:07:53,528 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:07:53,533 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:07:53,533 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:08:55,309 - __main__ - INFO - Initializing worker...
+2025-11-17 05:08:55,312 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:08:55,312 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:08:55,312 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:09:57,087 - __main__ - INFO - Initializing worker...
+2025-11-17 05:09:57,090 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:09:57,090 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:09:57,090 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:10:59,030 - __main__ - INFO - Initializing worker...
+2025-11-17 05:10:59,033 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:10:59,033 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:10:59,033 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:12:01,057 - __main__ - INFO - Initializing worker...
+2025-11-17 05:12:01,061 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:12:01,061 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:12:01,061 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:13:03,026 - __main__ - INFO - Initializing worker...
+2025-11-17 05:13:03,029 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:13:03,029 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:13:03,030 - __main__ - ERROR - Failed to initialize worker
