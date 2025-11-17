@@ -36,6 +36,8 @@ services:
       - ./:/app:rw
     env_file:
       - .env
+    environment:
+      - PYTHONPATH=/app
     depends_on:
       postgres:
         condition: service_healthy
@@ -61,6 +63,8 @@ services:
       - ./:/app:rw
     env_file:
       - .env
+    environment:
+      - PYTHONPATH=/app
     depends_on:
       postgres:
         condition: service_healthy

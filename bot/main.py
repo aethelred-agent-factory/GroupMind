@@ -373,6 +373,28 @@ class BotManager:
                 )
                 return
 
+            # Check subscription and usage limits
+            try:
+                from bot.services.payment import payment_service
+                
+                async with self.db_manager.get_session() as session:
+                    can_summarize, reason = await payment_service.can_generate_summary(session, user_id)
+                    if not can_summarize:
+                        upgrade_prompt = (
+                            f"{reason}\n\n"
+                            "Upgrade to <b>Pro</b> (99⭐) for 100 summaries/month\n"
+                            "or <b>Enterprise</b> (299⭐) for unlimited summaries.\n\n"
+                            "Use /purchase to upgrade"
+                        )
+                        await update.message.reply_text(
+                            upgrade_prompt,
+                            parse_mode="HTML",
+                        )
+                        return
+            except Exception as e:
+                logger.warning(f"Error checking subscription: {e}")
+                # Allow proceeding even if subscription check fails
+
             # Get recent messages from database
             try:
                 async with self.db_manager.get_session() as session:
@@ -436,6 +458,13 @@ class BotManager:
                         parse_mode="HTML",
                     )
                     logger.info(f"Summary sent for group {chat_id}")
+                    
+                    # Track usage for subscription
+                    try:
+                        from bot.services.payment import payment_service
+                        await payment_service.use_summary(session, user_id)
+                    except Exception as e:
+                        logger.warning(f"Error tracking summary usage: {e}")
                     
             except Exception as e:
                 logger.error(f"Database error while processing summary: {e}")

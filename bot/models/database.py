@@ -308,6 +308,126 @@ class Summary(Base):
         )
 
 
+class Subscription(Base):
+    """Subscription model for user billing tiers."""
+
+    __tablename__ = "subscriptions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False, unique=True, index=True)
+    tier = Column(String(50), default="FREE", nullable=False, index=True)  # FREE, PRO, ENTERPRISE
+    price_in_stars = Column(Integer, default=0, nullable=False)  # Cost in Telegram Stars (0 for FREE)
+    # Subscription lifecycle
+    started_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    expires_at = Column(DateTime, nullable=True, index=True)  # NULL for lifetime or annual
+    auto_renew = Column(Boolean, default=True, nullable=False)
+    # Usage limits for this tier
+    summaries_per_month = Column(Integer, default=5, nullable=False)  # Summaries allowed per month
+    summaries_used_this_month = Column(Integer, default=0, nullable=False)
+    summaries_reset_at = Column(DateTime, nullable=True)  # When monthly limit resets
+    # Metadata
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    
+    # Relationships
+    user = relationship(
+        "User",
+        foreign_keys=[user_id],
+    )
+    
+    __table_args__ = (
+        Index("idx_subscription_tier", "tier"),
+        Index("idx_subscription_expires", "expires_at"),
+        Index("idx_subscription_reset", "summaries_reset_at"),
+    )
+
+    def is_active(self) -> bool:
+        """Check if subscription is currently active."""
+        if self.tier == "FREE":
+            return True
+        if self.expires_at is None:
+            return True
+        return self.expires_at > datetime.utcnow()
+
+    def is_trial_active(self) -> bool:
+        """Check if this is an active trial subscription."""
+        return self.tier != "FREE" and self.started_at is not None
+
+    def days_until_expiry(self) -> Optional[int]:
+        """Get days until subscription expires."""
+        if self.expires_at is None:
+            return None
+        delta = self.expires_at - datetime.utcnow()
+        return max(0, delta.days)
+
+    def reset_monthly_limit(self):
+        """Reset monthly summary usage."""
+        self.summaries_used_this_month = 0
+        # Set next reset to same date next month
+        from dateutil.relativedelta import relativedelta
+        self.summaries_reset_at = datetime.utcnow() + relativedelta(months=1)
+
+    def __repr__(self):
+        return (
+            f"<Subscription(id={self.id}, user_id={self.user_id}, "
+            f"tier='{self.tier}', active={self.is_active()})>"
+        )
+
+
+class Payment(Base):
+    """Payment model for tracking Telegram Stars transactions."""
+
+    __tablename__ = "payments"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False, index=True)
+    telegram_payment_id = Column(String(255), unique=True, nullable=False, index=True)
+    # Payment details
+    tier = Column(String(50), nullable=False)  # PRO, ENTERPRISE
+    amount_in_stars = Column(Integer, nullable=False)
+    status = Column(String(50), default="pending", nullable=False, index=True)  # pending, completed, failed, refunded
+    # Telegram payment info
+    invoice_id = Column(String(255), nullable=True, index=True)
+    # Subscription granted
+    subscription_id = Column(Integer, ForeignKey("subscriptions.id"), nullable=True)
+    # Timestamps
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+    completed_at = Column(DateTime, nullable=True)
+    # Metadata
+    currency = Column(String(10), default="XTR", nullable=False)  # Telegram Stars
+    is_refunded = Column(Boolean, default=False, nullable=False)
+    refunded_at = Column(DateTime, nullable=True)
+    
+    __table_args__ = (
+        Index("idx_payment_user", "user_id"),
+        Index("idx_payment_status", "status"),
+        Index("idx_payment_created", "created_at"),
+        Index("idx_payment_tier", "tier"),
+    )
+
+    def mark_completed(self):
+        """Mark payment as completed."""
+        self.status = "completed"
+        self.completed_at = datetime.utcnow()
+
+    def mark_failed(self):
+        """Mark payment as failed."""
+        self.status = "failed"
+
+    def mark_refunded(self):
+        """Mark payment as refunded."""
+        self.is_refunded = True
+        self.refunded_at = datetime.utcnow()
+        self.status = "refunded"
+
+    def __repr__(self):
+        return (
+            f"<Payment(id={self.id}, user_id={self.user_id}, "
+            f"tier='{self.tier}', status='{self.status}', "
+            f"amount={self.amount_in_stars} stars)>"
+        )
+
+
 class AuditLog(Base):
     """Audit log for tracking bot actions."""
 
@@ -340,5 +460,7 @@ __all__ = [
     "User",
     "Message",
     "Summary",
+    "Subscription",
+    "Payment",
     "AuditLog",
 ]

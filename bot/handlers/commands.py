@@ -753,3 +753,135 @@ class CommandHandler:
 
         except Exception as e:
             logger.error(f"Error in get_group_stats: {e}")
+
+    async def show_subscription(
+        self,
+        update: Update,
+        context: ContextTypes.DEFAULT_TYPE,
+        db_session: Optional[Any] = None,
+    ) -> None:
+        """
+        Handle /subscription command to show current plan and usage.
+
+        Args:
+            update: Telegram update object
+            context: Telegram context object
+            db_session: Database session
+        """
+        try:
+            from bot.services.payment import payment_service
+
+            if not update.message or not update.effective_user:
+                logger.warning("Subscription command: missing message or user")
+                return
+
+            user = update.effective_user
+
+            if not self.authorizer.is_user_valid(user):
+                logger.warning(f"Invalid user in subscription command: {user.id}")
+                await update.message.reply_text(
+                    "❌ Invalid user. Please try again."
+                )
+                return
+
+            if not db_session:
+                await update.message.reply_text(
+                    "❌ Database unavailable. Please try again later."
+                )
+                return
+
+            stats = await payment_service.get_user_stats(db_session, user.id)
+
+            stats_text = (
+                f"<b>💳 Your Subscription</b>\n\n"
+                f"<b>Plan:</b> {stats['tier']}\n"
+                f"<b>Status:</b> {'✅ Active' if stats['is_active'] else '❌ Inactive'}\n\n"
+                f"<b>Usage:</b>\n"
+                f"  Summaries: {stats['summaries_used']}/{stats['summaries_limit']} this month\n"
+            )
+
+            if stats['days_until_expiry'] is not None:
+                stats_text += f"  Expires in: {stats['days_until_expiry']} days\n"
+
+            stats_text += (
+                f"\n<b>💡 Upgrade to Pro</b> for 100 summaries/month - 99⭐\n"
+                f"<b>🚀 Upgrade to Enterprise</b> for unlimited summaries - 299⭐\n\n"
+                f"Use /purchase to upgrade your plan."
+            )
+
+            await update.message.reply_text(
+                stats_text,
+                parse_mode="HTML",
+            )
+
+        except Exception as e:
+            logger.error(f"Error in show_subscription: {e}")
+            try:
+                await update.message.reply_text(
+                    "❌ Error retrieving subscription. Please try again later."
+                )
+            except Exception:
+                pass
+
+    async def show_purchase_options(
+        self, update: Update, context: ContextTypes.DEFAULT_TYPE
+    ) -> None:
+        """
+        Handle /purchase command to show upgrade options.
+
+        Args:
+            update: Telegram update object
+            context: Telegram context object
+        """
+        try:
+            from bot.services.payment import TierConfig, SubscriptionTier
+
+            if not update.message or not update.effective_user:
+                logger.warning("Purchase command: missing message or user")
+                return
+
+            user = update.effective_user
+
+            if not self.authorizer.is_user_valid(user):
+                logger.warning(f"Invalid user in purchase command: {user.id}")
+                await update.message.reply_text(
+                    "❌ Invalid user. Please try again."
+                )
+                return
+
+            purchase_text = (
+                "<b>🎯 Choose Your Plan</b>\n\n"
+                f"{TierConfig.TIERS[SubscriptionTier.FREE]['name']} - Free\n"
+                f"  {TierConfig.TIERS[SubscriptionTier.FREE]['summaries_per_month']} summaries/month\n\n"
+                f"{TierConfig.TIERS[SubscriptionTier.PRO]['name']} - {TierConfig.TIERS[SubscriptionTier.PRO]['price_in_stars']}⭐\n"
+                f"  {TierConfig.TIERS[SubscriptionTier.PRO]['summaries_per_month']} summaries/month\n\n"
+                f"{TierConfig.TIERS[SubscriptionTier.ENTERPRISE]['name']} - {TierConfig.TIERS[SubscriptionTier.ENTERPRISE]['price_in_stars']}⭐\n"
+                f"  {TierConfig.TIERS[SubscriptionTier.ENTERPRISE]['summaries_per_month']} summaries/month\n\n"
+                "To purchase, click the button below or type /pro or /enterprise"
+            )
+
+            from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+
+            keyboard = [
+                [
+                    InlineKeyboardButton("Pro Plan (99⭐)", callback_data="purchase_pro"),
+                    InlineKeyboardButton("Enterprise (299⭐)", callback_data="purchase_enterprise"),
+                ]
+            ]
+            reply_markup = InlineKeyboardMarkup(keyboard)
+
+            await update.message.reply_text(
+                purchase_text,
+                parse_mode="HTML",
+                reply_markup=reply_markup,
+            )
+
+        except Exception as e:
+            logger.error(f"Error in show_purchase_options: {e}")
+            try:
+                await update.message.reply_text(
+                    "❌ Error loading purchase options. Please try again later."
+                )
+            except Exception:
+                pass
+
