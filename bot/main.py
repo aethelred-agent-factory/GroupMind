@@ -231,6 +231,10 @@ class BotManager:
 
         self.application.add_handler(CommandHandler("start", self.start_command))
         self.application.add_handler(CommandHandler("summary", self.summary_command))
+        self.application.add_handler(CommandHandler("trending", self.trending_command))
+        self.application.add_handler(CommandHandler("sentiment", self.sentiment_command))
+        self.application.add_handler(CommandHandler("actions", self.actions_command))
+        self.application.add_handler(CommandHandler("stats", self.stats_command))
         self.application.add_handler(CommandHandler("help", self.help_command))
 
         # Message handler for group messages
@@ -307,11 +311,15 @@ class BotManager:
             help_message = (
                 "<b>Available Commands:</b>\n\n"
                 "<code>/start</code> - Welcome message\n"
-                "<code>/help</code> - Show this help message\n"
-                "<code>/summary</code> - Get a summary of recent group discussions\n\n"
+                "<code>/summary</code> - Get a summary of recent group discussions\n"
+                "<code>/trending</code> - Show trending topics from last 24h\n"
+                "<code>/sentiment</code> - Analyze group sentiment and mood\n"
+                "<code>/actions</code> - Extract action items from conversations\n"
+                "<code>/stats</code> - View group statistics\n"
+                "<code>/help</code> - Show this help message\n\n"
                 "<b>How to use:</b>\n"
                 "Add me to your group and I'll automatically monitor conversations. "
-                "Use /summary in the group to get insights from recent messages."
+                "Use any command in the group to get insights!"
             )
 
             await update.message.reply_text(
@@ -445,6 +453,267 @@ class BotManager:
                 pass
         except Exception as e:
             logger.error(f"Unexpected error in summary command: {e}")
+
+    async def trending_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        """
+        Handle /trending command - show most discussed topics.
+
+        Args:
+            update: Telegram update object
+            context: Telegram context object
+        """
+        try:
+            if not update.effective_user or not update.effective_chat:
+                logger.warning("Trending command received with missing info")
+                return
+
+            chat_id = update.effective_chat.id
+            await update.effective_chat.send_action("typing")
+
+            from bot.models.database import Message as DBMessage
+            from sqlalchemy import select, desc, func
+            from datetime import timedelta
+
+            async with self.db_manager.get_session() as session:
+                cutoff_time = datetime.utcnow() - timedelta(hours=24)
+                stmt = (
+                    select(DBMessage.text)
+                    .where(
+                        (DBMessage.group_id == chat_id)
+                        & (DBMessage.timestamp >= cutoff_time)
+                    )
+                    .limit(100)
+                )
+                result = await session.execute(stmt)
+                messages = result.scalars().all()
+
+                if not messages:
+                    await update.message.reply_text("📊 No messages found in the past 24 hours.")
+                    return
+
+                # Extract keywords from messages
+                text = " ".join(messages).lower()
+                # Simple word frequency (could be enhanced with NLP)
+                words = text.split()
+                common_words = [
+                    "is", "the", "a", "and", "or", "but", "in", "on", "at", "to", 
+                    "of", "for", "with", "from", "by", "it", "that", "this", "are"
+                ]
+                word_freq = {}
+                for word in words:
+                    if len(word) > 4 and word not in common_words:
+                        word_freq[word] = word_freq.get(word, 0) + 1
+
+                top_words = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)[:5]
+
+                if top_words:
+                    trending_text = "🔥 <b>Trending Topics (24h)</b>\n\n"
+                    for i, (word, count) in enumerate(top_words, 1):
+                        trending_text += f"{i}. <code>{word}</code> - mentioned {count}x\n"
+                else:
+                    trending_text = "📊 No trending topics found."
+
+                await update.message.reply_text(trending_text, parse_mode="HTML")
+                logger.info(f"Trending command executed in chat {chat_id}")
+
+        except Exception as e:
+            logger.error(f"Error in trending command: {e}")
+            try:
+                await update.message.reply_text("Sorry, couldn't fetch trending topics.")
+            except Exception:
+                pass
+
+    async def sentiment_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        """
+        Handle /sentiment command - analyze group mood.
+
+        Args:
+            update: Telegram update object
+            context: Telegram context object
+        """
+        try:
+            if not update.effective_user or not update.effective_chat:
+                logger.warning("Sentiment command received with missing info")
+                return
+
+            chat_id = update.effective_chat.id
+            await update.effective_chat.send_action("typing")
+
+            from bot.models.database import Message as DBMessage
+            from sqlalchemy import select
+            from datetime import timedelta
+
+            async with self.db_manager.get_session() as session:
+                cutoff_time = datetime.utcnow() - timedelta(hours=24)
+                stmt = (
+                    select(DBMessage)
+                    .where(
+                        (DBMessage.group_id == chat_id)
+                        & (DBMessage.timestamp >= cutoff_time)
+                    )
+                )
+                result = await session.execute(stmt)
+                messages = result.scalars().all()
+
+                if not messages:
+                    await update.message.reply_text("📊 No messages found.")
+                    return
+
+                # Count sentiments
+                positive = sum(1 for m in messages if m.sentiment == "positive")
+                negative = sum(1 for m in messages if m.sentiment == "negative")
+                neutral = sum(1 for m in messages if m.sentiment == "neutral")
+                total = len(messages)
+
+                sentiment_text = "💭 <b>Group Sentiment (24h)</b>\n\n"
+                sentiment_text += f"😊 Positive: {positive}/{total} ({100*positive//total}%)\n"
+                sentiment_text += f"😐 Neutral: {neutral}/{total} ({100*neutral//total}%)\n"
+                sentiment_text += f"😞 Negative: {negative}/{total} ({100*negative//total}%)\n"
+
+                overall = "positive" if positive > negative else ("negative" if negative > positive else "neutral")
+                emoji = {"positive": "🟢", "negative": "🔴", "neutral": "⚪"}[overall]
+                sentiment_text += f"\n{emoji} <b>Overall: {overall.title()}</b>"
+
+                await update.message.reply_text(sentiment_text, parse_mode="HTML")
+                logger.info(f"Sentiment command executed in chat {chat_id}")
+
+        except Exception as e:
+            logger.error(f"Error in sentiment command: {e}")
+            try:
+                await update.message.reply_text("Sorry, couldn't analyze sentiment.")
+            except Exception:
+                pass
+
+    async def actions_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        """
+        Handle /actions command - extract action items from recent messages.
+
+        Args:
+            update: Telegram update object
+            context: Telegram context object
+        """
+        try:
+            if not update.effective_user or not update.effective_chat:
+                logger.warning("Actions command received with missing info")
+                return
+
+            chat_id = update.effective_chat.id
+            await update.effective_chat.send_action("typing")
+
+            from bot.models.database import Message as DBMessage
+            from sqlalchemy import select
+            from datetime import timedelta
+
+            async with self.db_manager.get_session() as session:
+                cutoff_time = datetime.utcnow() - timedelta(hours=24)
+                stmt = (
+                    select(DBMessage)
+                    .where(
+                        (DBMessage.group_id == chat_id)
+                        & (DBMessage.timestamp >= cutoff_time)
+                    )
+                )
+                result = await session.execute(stmt)
+                messages = result.scalars().all()
+
+                if not messages:
+                    await update.message.reply_text("📊 No messages found.")
+                    return
+
+                # Find messages with action keywords
+                action_keywords = ["todo", "need to", "should", "will do", "must", "have to", "i'll", "we'll", "action item", "task"]
+                action_messages = []
+
+                for msg in messages:
+                    text_lower = msg.text.lower() if msg.text else ""
+                    if any(keyword in text_lower for keyword in action_keywords):
+                        action_messages.append((msg.text, msg.timestamp))
+
+                if not action_messages:
+                    await update.message.reply_text("✅ No pending action items found!")
+                    return
+
+                actions_text = f"✅ <b>Action Items ({len(action_messages)} found)</b>\n\n"
+                for i, (text, timestamp) in enumerate(action_messages[:10], 1):
+                    # Truncate long messages
+                    display_text = text[:60] + "..." if len(text) > 60 else text
+                    actions_text += f"{i}. <code>{display_text}</code>\n"
+
+                await update.message.reply_text(actions_text, parse_mode="HTML")
+                logger.info(f"Actions command executed in chat {chat_id}")
+
+        except Exception as e:
+            logger.error(f"Error in actions command: {e}")
+            try:
+                await update.message.reply_text("Sorry, couldn't extract action items.")
+            except Exception:
+                pass
+
+    async def stats_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        """
+        Handle /stats command - show group statistics.
+
+        Args:
+            update: Telegram update object
+            context: Telegram context object
+        """
+        try:
+            if not update.effective_user or not update.effective_chat:
+                logger.warning("Stats command received with missing info")
+                return
+
+            chat_id = update.effective_chat.id
+            await update.effective_chat.send_action("typing")
+
+            from bot.models.database import Message as DBMessage, User, Group
+            from sqlalchemy import select, func
+            from datetime import timedelta
+
+            async with self.db_manager.get_session() as session:
+                # Get group info
+                group_stmt = select(Group).where(Group.group_id == chat_id)
+                group_result = await session.execute(group_stmt)
+                group = group_result.scalar_one_or_none()
+
+                # Get stats for past 24 hours
+                cutoff_time = datetime.utcnow() - timedelta(hours=24)
+                msg_stmt = (
+                    select(func.count(DBMessage.id))
+                    .where(
+                        (DBMessage.group_id == chat_id)
+                        & (DBMessage.timestamp >= cutoff_time)
+                    )
+                )
+                msg_result = await session.execute(msg_stmt)
+                message_count = msg_result.scalar() or 0
+
+                # Get unique users
+                user_stmt = (
+                    select(func.count(func.distinct(DBMessage.user_id)))
+                    .where(
+                        (DBMessage.group_id == chat_id)
+                        & (DBMessage.timestamp >= cutoff_time)
+                    )
+                )
+                user_result = await session.execute(user_stmt)
+                unique_users = user_result.scalar() or 0
+
+                stats_text = "📈 <b>Group Statistics (24h)</b>\n\n"
+                stats_text += f"💬 Messages: {message_count}\n"
+                stats_text += f"👥 Unique Users: {unique_users}\n"
+                if group:
+                    stats_text += f"📅 Group Created: {group.created_at.strftime('%Y-%m-%d') if group.created_at else 'Unknown'}\n"
+                stats_text += f"⏱️ Last Updated: Just now"
+
+                await update.message.reply_text(stats_text, parse_mode="HTML")
+                logger.info(f"Stats command executed in chat {chat_id}")
+
+        except Exception as e:
+            logger.error(f"Error in stats command: {e}")
+            try:
+                await update.message.reply_text("Sorry, couldn't fetch statistics.")
+            except Exception:
+                pass
 
     async def handle_group_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         """
