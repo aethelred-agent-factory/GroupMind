@@ -70,7 +70,7 @@ class TestDeepSeekClient:
             assert hasattr(client, 'max_retries')
             assert client.max_retries >= 1
     
-    def test_token_counter(self):
+    async def test_token_counter(self):
         """Test token counter estimation."""
         # Test word approximation
         text = "This is a test. It has multiple words."
@@ -79,7 +79,7 @@ class TestDeepSeekClient:
         assert estimated_tokens > 0
         assert isinstance(estimated_tokens, int)
     
-    def test_token_counter_max_context(self):
+    async def test_token_counter_max_context(self):
         """Test token counter respects max context."""
         text = "word " * 500  # Create large text
         truncated = TokenCounter.trim_context(text, max_tokens=100)
@@ -87,7 +87,6 @@ class TestDeepSeekClient:
         assert len(truncated) <= len(text)
 
 
-@pytest.mark.asyncio
 class TestSentimentAnalyzer:
     """Test suite for SentimentAnalyzer."""
     
@@ -147,7 +146,6 @@ class TestSentimentAnalyzer:
         assert all(isinstance(r, tuple) for r in results)
 
 
-@pytest.mark.asyncio
 class TestSummarizer:
     """Test suite for Summarizer."""
     
