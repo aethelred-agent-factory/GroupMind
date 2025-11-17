@@ -28,13 +28,17 @@ docker-compose up -d
 
 In your Telegram group:
 ```
-/help        # See available commands
+/help        # See ALL available commands
 /summary     # Generate a group summary
+/trending    # Show trending topics
+/sentiment   # Analyze group mood
+/actions     # Extract action items
+/stats       # View group statistics
 ```
 
-Send a few messages first, then use `/summary`
+Send a few messages first, then use the commands!
 
-## Monitor What's Happening
+## Watch It Work
 
 ```bash
 # Watch the bot in real-time
@@ -55,6 +59,7 @@ docker-compose down
 
 ## Need Details?
 
+- **All Commands**: `COMMANDS.md` - Full reference for every command
 - Full setup guide: `docs/BOT_SETUP_GUIDE.md`
 - Deployment: `docs/DEPLOY_NOW.md`
 - Architecture: `README.md`
