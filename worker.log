@@ -274,3 +274,19 @@
 2025-11-17 05:13:03,029 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
 2025-11-17 05:13:03,029 - __main__ - ERROR - Failed to connect to Redis
 2025-11-17 05:13:03,030 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:14:05,020 - __main__ - INFO - Initializing worker...
+2025-11-17 05:14:05,024 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:14:05,024 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:14:05,024 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:15:07,282 - __main__ - INFO - Initializing worker...
+2025-11-17 05:15:07,285 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:15:07,285 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:15:07,286 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:16:09,478 - __main__ - INFO - Initializing worker...
+2025-11-17 05:16:09,481 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:16:09,481 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:16:09,482 - __main__ - ERROR - Failed to initialize worker
+2025-11-17 05:17:11,499 - __main__ - INFO - Initializing worker...
+2025-11-17 05:17:11,502 - bot.utils.queue - ERROR - Failed to connect to Redis: Error Multiple exceptions: [Errno 111] Connect call failed ('::1', 6379, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 6379) connecting to localhost:6379.
+2025-11-17 05:17:11,502 - __main__ - ERROR - Failed to connect to Redis
+2025-11-17 05:17:11,502 - __main__ - ERROR - Failed to initialize worker
