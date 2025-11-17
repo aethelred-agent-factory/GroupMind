@@ -33,6 +33,12 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
+# Import models and services
+from bot.models.database import Group, User, Message as DBMessage, Summary
+from bot.services.deepseek import DeepSeekClient, Message as APIMessage, TokenCounter
+from bot.services.sentiment import SentimentAnalyzer
+from sqlalchemy import select, desc, func
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -369,10 +375,6 @@ class BotManager:
 
             # Get recent messages from database
             try:
-                from bot.models.database import Message as DBMessage
-                from sqlalchemy import select, desc
-                from datetime import timedelta
-                
                 async with self.db_manager.get_session() as session:
                     # Get last 50 messages from past 24 hours
                     cutoff_time = datetime.utcnow() - timedelta(hours=24)
@@ -395,8 +397,6 @@ class BotManager:
                         return
                     
                     # Generate summary using DeepSeek
-                    from bot.services.deepseek import DeepSeekClient, Message as APIMessage
-                    
                     api_key = os.getenv("DEEPSEEK_API_KEY")
                     if not api_key:
                         await update.message.reply_text(
@@ -470,10 +470,6 @@ class BotManager:
             chat_id = update.effective_chat.id
             await update.effective_chat.send_action("typing")
 
-            from bot.models.database import Message as DBMessage
-            from sqlalchemy import select, desc, func
-            from datetime import timedelta
-
             async with self.db_manager.get_session() as session:
                 cutoff_time = datetime.utcnow() - timedelta(hours=24)
                 stmt = (
@@ -539,10 +535,6 @@ class BotManager:
             chat_id = update.effective_chat.id
             await update.effective_chat.send_action("typing")
 
-            from bot.models.database import Message as DBMessage
-            from sqlalchemy import select
-            from datetime import timedelta
-
             async with self.db_manager.get_session() as session:
                 cutoff_time = datetime.utcnow() - timedelta(hours=24)
                 stmt = (
@@ -599,10 +591,6 @@ class BotManager:
 
             chat_id = update.effective_chat.id
             await update.effective_chat.send_action("typing")
-
-            from bot.models.database import Message as DBMessage
-            from sqlalchemy import select
-            from datetime import timedelta
 
             async with self.db_manager.get_session() as session:
                 cutoff_time = datetime.utcnow() - timedelta(hours=24)
@@ -664,10 +652,6 @@ class BotManager:
 
             chat_id = update.effective_chat.id
             await update.effective_chat.send_action("typing")
-
-            from bot.models.database import Message as DBMessage, User, Group
-            from sqlalchemy import select, func
-            from datetime import timedelta
 
             async with self.db_manager.get_session() as session:
                 # Get group info
